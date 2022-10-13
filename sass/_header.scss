@@ -1,14 +1,15 @@
+@import "variables";
 /*Mobile first*/
 
 header {
-    background-color: #2b579e;
-    border: 0px;
+    background-color:$color-footer;
+
 
 }
 
 /*Organización del  nav */
 /*Organización del Logo en el nav */
-nav {
+/*nav {
     font-family: 'Aboreto', cursive;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Noto Sans Buhid', sans-serif;
@@ -19,10 +20,8 @@ nav {
             a {
                 text-decoration: none;
                 color: aliceblue;
-                padding: 10px;
-            
             }
-}
+}*/
 
 
 /*Tamaño del logo */

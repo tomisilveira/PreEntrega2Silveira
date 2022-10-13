@@ -16,6 +16,13 @@ h1 {
     font-family: 'Noto Sans Buhid', sans-serif;
 }
 
+#height-valores{
+    height: 500px;
+    align-items: center;
+}
+#height-nosotros{
+    @extend #height-valores;
+}
 
 
 #carrusel {
@@ -56,9 +63,7 @@ h1 {
 }
 
 /*Grids*/
-header {
-    grid-area: header;
-}
+
 
 .capacitacion_1 {
     grid-area: capacitacion_1;
@@ -84,9 +89,6 @@ header {
     grid-area: capacitacion_6;
 }
 
-nav {
-    grid-area: nav
-}
 
 footer {
     grid-area: footer;
@@ -121,8 +123,7 @@ footer {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-areas:
-            "header header"
-            "nav nav"
+            
             "capacitacion_1 capacitacion_2"
             "capacitacion_3 capacitacion_4"
             "capacitacion_5 capacitacion_6"
@@ -184,8 +185,7 @@ footer {
         display: grid;
         grid-template-columns: 33% 33% 33%;
         grid-template-areas:
-            "header header header"
-            "nav nav nav"
+            
             "capacitacion_1 capacitacion_2 capacitacion_3"
             "capacitacion_4 capacitacion_5 capacitacion_6"
             "footer footer footer";

@@ -22,26 +22,37 @@
     <header>
 
         <!--Navegador-->
-        <nav>
-            <!--Imagen logo de la fundación - No logro centrarla con el menú-->
-            <img src="./img/logo_fundacion_san_patricio_sin_fondo.png" id="logo_menu" alt="Logo de la Fundación">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./section/capacitaciones.html">Capacitaciones</a>
-                </li>
-                <li>
-                    <a href="./section/valores.html">Valores</a>
-                </li>
-                <li>
-                    <a href="./section/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./section/contacto.html">Contacto</a>
-                </li>
-            </ul>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"style="background-color: #2b579e;">
+            <div class="container-fluid"style="background-color: #2b579e;">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo_fundacion_san_patricio_sin_fondo.png" alt="Logo de la Fundación" height="30">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./section/capacitaciones.html">Capacitaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./section/valores.html">valores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./section/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./section/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -114,6 +125,6 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
 </body>
-</body>
+
 
 </html>

@@ -20,25 +20,23 @@ body {
 /*Mobile first*/
 header {
   background-color: #2b579e;
-  border: 0px;
 }
 
 /*Organización del  nav */
 /*Organización del Logo en el nav */
-nav {
-  font-family: "Aboreto", cursive;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Noto Sans Buhid", sans-serif;
-}
-nav li {
-  list-style-type: none;
-}
-nav a {
-  text-decoration: none;
-  color: aliceblue;
-  padding: 10px;
-}
+/*nav {
+    font-family: 'Aboreto', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans Buhid', sans-serif;
 
+        li {
+            list-style-type: none;
+        }
+            a {
+                text-decoration: none;
+                color: aliceblue;
+            }
+}*/
 /*Tamaño del logo */
 #logo_menu {
   height: 30px;
@@ -130,12 +128,43 @@ footer {
     color: blanchedalmond;
   }
 }
+/*Medida para pc*/
+@media (min-width: 1024px) {
+  footer {
+    padding: 30px;
+    background-color: #2b579e;
+  }
+  /*Iconos de pie */
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .pie_pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pie_pagina p {
+    color: blanchedalmond;
+  }
+}
 h1 {
   margin-top: 20px;
   text-align: center;
   font-family: "Aboreto", cursive;
   font-family: "Josefin Sans", sans-serif;
   font-family: "Noto Sans Buhid", sans-serif;
+}
+
+#height-valores, #height-nosotros {
+  height: 500px;
+  align-items: center;
 }
 
 #carrusel {
@@ -185,10 +214,6 @@ h1 {
   }
 }
 /*Grids*/
-header {
-  grid-area: header;
-}
-
 .capacitacion_1 {
   grid-area: capacitacion_1;
 }
@@ -213,10 +238,6 @@ header {
   grid-area: capacitacion_6;
 }
 
-nav {
-  grid-area: nav;
-}
-
 footer {
   grid-area: footer;
 }
@@ -238,7 +259,7 @@ footer {
   .envoltura {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-areas: "header header" "nav nav" "capacitacion_1 capacitacion_2" "capacitacion_3 capacitacion_4" "capacitacion_5 capacitacion_6" "footer footer";
+    grid-template-areas: "capacitacion_1 capacitacion_2" "capacitacion_3 capacitacion_4" "capacitacion_5 capacitacion_6" "footer footer";
   }
   /*Sección capacitaciones*/
   .padre {
@@ -277,7 +298,7 @@ footer {
   .envoltura {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-areas: "header header header" "nav nav nav" "capacitacion_1 capacitacion_2 capacitacion_3" "capacitacion_4 capacitacion_5 capacitacion_6" "footer footer footer";
+    grid-template-areas: "capacitacion_1 capacitacion_2 capacitacion_3" "capacitacion_4 capacitacion_5 capacitacion_6" "footer footer footer";
   }
   /*Espacio en blanco para diferenciar el footer y el header*/
   .espacio_blanco {
