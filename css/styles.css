@@ -162,8 +162,13 @@ h1 {
   font-family: "Noto Sans Buhid", sans-serif;
 }
 
-#height-valores, #height-nosotros {
-  height: 500px;
+#height-valores {
+  height: 1200px;
+  align-items: center;
+}
+
+#height-nosotros {
+  height: 900px;
   align-items: center;
 }
 
@@ -277,7 +282,7 @@ footer {
     width: 100%;
     background-color: blanchedalmond;
   }
-  #height-valores, #height-nosotros {
+  #height-valores {
     height: 800px;
     align-items: center;
   }
@@ -309,7 +314,7 @@ footer {
     width: 100%;
     background-color: blanchedalmond;
   }
-  #height-valores, #height-nosotros {
+  #height-valores {
     height: 800px;
     align-items: center;
   }
@@ -353,7 +358,7 @@ footer {
     width: 100%;
     background-color: blanchedalmond;
   }
-  #height-valores, #height-nosotros {
+  #height-valores {
     height: 600px;
     align-items: center;
   }

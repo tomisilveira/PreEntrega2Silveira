@@ -17,12 +17,13 @@ h1 {
 }
 
 #height-valores {
-    height: 500px;
+    height: 1200px;
     align-items: center;
 }
 
 #height-nosotros {
-    @extend #height-valores;
+    height: 900px;
+    align-items: center;
 }
 
 
