@@ -267,9 +267,55 @@ footer {
     margin: 20px;
   }
   .imagenes_capacitacion {
+    width: 250px;
+    height: 200px;
+    margin-top: 15px;
+  }
+  /*Espacio en blanco para diferenciar el footer y el header*/
+  .espacio_blanco {
+    height: 500px;
+    width: 100%;
+    background-color: blanchedalmond;
+  }
+  #height-valores, #height-nosotros {
+    height: 800px;
+    align-items: center;
+  }
+  #height-nosotros {
+    height: 600px;
+    align-items: center;
+  }
+}
+/*Medida para tablet*/
+@media (min-width: 700px) {
+  .envoltura {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "capacitacion_1 capacitacion_2" "capacitacion_3 capacitacion_4" "capacitacion_5 capacitacion_6" "footer footer";
+  }
+  /*Sección capacitaciones*/
+  .padre {
+    align-items: center;
+    margin: 20px;
+  }
+  .imagenes_capacitacion {
     width: 300px;
     height: 250px;
     margin-top: 15px;
+  }
+  /*Espacio en blanco para diferenciar el footer y el header*/
+  .espacio_blanco {
+    height: 500px;
+    width: 100%;
+    background-color: blanchedalmond;
+  }
+  #height-valores, #height-nosotros {
+    height: 800px;
+    align-items: center;
+  }
+  #height-nosotros {
+    height: 800px;
+    align-items: center;
   }
 }
 /*Medida para pc*/
@@ -289,11 +335,12 @@ footer {
   /*Sección capacitaciones*/
   .capacitaciones {
     align-items: center;
-    margin: 40px;
+    margin: 30px;
   }
   .imagenes_capacitacion {
-    width: 30%;
-    height: 30%;
+    width: 300px;
+    height: 250px;
+    margin-top: 15px;
   }
   .envoltura {
     display: grid;
@@ -305,5 +352,13 @@ footer {
     height: 500px;
     width: 100%;
     background-color: blanchedalmond;
+  }
+  #height-valores, #height-nosotros {
+    height: 600px;
+    align-items: center;
+  }
+  #height-nosotros {
+    height: 500px;
+    align-items: center;
   }
 }/*# sourceMappingURL=styles.css.map */
