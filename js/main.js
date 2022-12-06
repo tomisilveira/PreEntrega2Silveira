@@ -41,9 +41,9 @@ switch(tramite){
         
           while (comision != "Mañana" || comision != "Tarde" || comision != "Noche") {
             comision =prompt("Ingrese a que comision quiere inscribirse: Mañana/Tarde/Noche");
-           if (comision == "Mañana" || comision == "Tarde" || comision == "Noche") {
-              break;}
-          }
+            if (comision == "Mañana" || comision == "Tarde" || comision == "Noche") {
+                break;}
+            }
           comisionCursada(comision);
           break;
     case "2":
